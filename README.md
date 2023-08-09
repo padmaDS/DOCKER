@@ -4,7 +4,7 @@ First of all we need to download Docker desktop application in our local system 
 
 Now we need to perform all the operations from VSCode IDE.
 
-First we need to create any project completely. (Which contains every folders and files like source folder, config folder, __init__, logging, exception, DataIngestion,Datavalidation, Model building, Model evaluation,Artifacts, Training pipeline, testing pipeline, app.py / main.py, yaml file, requirements.txt .....etc.)
+First we need to create any project completely. (Which contains every folders and files like source folder, components folder, config folder, __init__, logging, exception, DataIngestion,Datavalidation, Model building, Model evaluation,Artifacts, Training pipeline, testing pipeline, app.py / main.py, yaml file, requirements.txt .....etc.)
 
 After successful excution of our project, now we need to create on Dockerfile. It consists of some commands
 
