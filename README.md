@@ -1,12 +1,21 @@
 **Let us discuss about how to create docker images and containers practically..**
+
 First of all we need to download Docker desktop application in our local system and need to login there.
+
 Now we need to perform all the operations from VSCode IDE.
+
 First we need to create any project completely. (Which contains every folders and files like source folder, config folder, __init__, logging, exception, DataIngestion,Datavalidation, Model building, Model evaluation,Artifacts, Training pipeline, testing pipeline, app.py / main.py, yaml file, requirements.txt .....etc.)
+
 After successful excution of our project, now we need to create on Dockerfile. It consists of some commands
+
 .....> FROM python:3.8-alpine              ##(it creates a base image for our docker from dockerhub using python:3.8-alpine)
+
 .....> COPY ./app                          ##(it will copy all the folders and files of our current project to **app** folder, where we need to run our entire project)
+
 .....> WORKDIR /app                        ##(Here we have to confirm that our working directory now is **app**)
+
 .....> RUN pip install -r requirements.txt ##(it will install all the necessary libraries / dependencis)
+
 .....> CMD python app.py                   ##(Using this command we can run our application)
 
 
